@@ -1,0 +1,61 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    - some changes to programs are intentional, some are mistakes. When parts of the code 
+ change that weren't supposed to, then you may have found a bug. it's also likely that
+ bugs were introduced in parts of the code that changed (assuming it was working before).
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+   If you break something, or change an approach to some problem, you have a way
+   to go back and review it. To review how you've changed things allows you to
+   view your own evolution as a coder.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    You know when there are logical breaks in programming or tasks. That way you can
+    ensure that your commits make logical sense. Automatically saving keeps you from
+    going too long without committing, but the commits will not necessarily have 
+    any logical meaning to you. You don't know what happened or was happening during 
+    those commits.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    With git it's based on changing one logical unit, despite how many files it 
+    touches. Take the book and chapters example. If you change a characters name that
+    is going to be one big change, impacting a lot of chapters. If you wanted to revert 
+    back you would prefer to revert everything instead of a file at a time. Also, with
+    a program it's a combination of a lot of parts at a moment in time. If I take an 
+    old version of a class or function, methods that call it may have changed and those
+    changes are now out-of-sync.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will show you all of the commits, git diff plus old and new id’s will show
+	all of the changes next to each other. The log will show you all of the history the
+	diff will show you all the changes.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because you can always fall back into an older version and see where you were and
+    what changes you made. You can always GET BACK to where you were and figure out
+    where changes might have led you wrong. Would be cool to have a version control in 
+    real life so that you could try out different options before committing to something
+    and use the life that makes the most sense.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Keeping track fo visual studio or python projects...probably better set up my
+    windows environment. most likely will use it from there...
+    
+B
+$
+C
+#
+%
+E
