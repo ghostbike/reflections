@@ -37,5 +37,11 @@ the diagram the way we do?
 	Show it in a diagram to understand where the changes are and we need to do a diff
 	then we can go back to the parent of each commit
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Pro's are Git may find changes that you could miss and it is easy, but it could
+	screw things up as well if it chose poorly. Doing the merges manually would allow
+	you more control, but it increases the probability of making a mistake, because
+	you could choose poorly. Either way, changes can be undone or redone if the commit
+	history is maintained.
