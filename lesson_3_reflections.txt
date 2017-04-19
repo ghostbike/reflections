@@ -8,7 +8,9 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Git gives you the choice of when to commit changes. The worst thing that could
+    happen is changes submitted by another user flows down to your local repository
+    without you knowing about it, corrupting your work.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
