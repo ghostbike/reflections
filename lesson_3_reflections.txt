@@ -1,7 +1,9 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    To share your work, especially when you're working with other developers on a 
+    project that you want to collaborate on. Also from a portfolio perspective you
+    want to be able to demo or show things without having your computer there.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
