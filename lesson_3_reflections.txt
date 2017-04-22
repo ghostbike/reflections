@@ -22,6 +22,10 @@ use one instead of another?
     
     The forking process is handled in github, then you clone, forking: git clone url
     when you pull a repository github sets up the repository too
+    
+    A branch is a side version of the repository that allows you to experiment without
+    disturbing the master branch. It is not a fork and clone because it's a way point
+    and not a starting point for working with a repository
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
