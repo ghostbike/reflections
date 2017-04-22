@@ -15,7 +15,13 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Clone means I copy the github files onto my computer and work with it as if it
+    were a local repository. Fork is a clone that is all in github. With a fork, 
+    the clone happens on github first, in a pure clone the clone happens to the local
+    repository first then back to git hub
+    
+    The forking process is handled in github, then you clone, forking: git clone url
+    when you pull a repository github sets up the repository too
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
