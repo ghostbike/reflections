@@ -46,4 +46,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+	When you are collaborating and want to confirm changes with your coding partners, 
+	that's when you want to make changes in a separate branch rather than in the master
+	branch. Updating the master gets everyone on the same page, but could conflict
+	with local changes that users have on their machines.
